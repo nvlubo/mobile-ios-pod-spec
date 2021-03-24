@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "$(git config user.name)" => "$(git config user.email)" }
-    s.source       = { :git => "/Users/lubo/work/podmake/NVFoundation.git", :tag => "#{s.version}" }
-    s.public_header_files = "NVFoundation.framework/Headers/*.h"
-    s.source_files = "NVFoundation.framework/Headers/*.h"
-    s.vendored_frameworks = "NVFoundation.framework"
+    s.source       = { :http => "https://github.com/nvlubo/NVFundation/releases/download/v0.1.0/NVFoundation.zip" }
+    s.public_header_files = "NVFoundation/NVFoundation.framework/Headers/*.h"
+    s.source_files = "NVFoundation/NVFoundation.framework/Headers/*.h"
+    s.vendored_frameworks = "NVFoundation/NVFoundation.framework"
     s.platform = :ios
     s.swift_version = "4.2"
     s.ios.deployment_target  = '12.0'
