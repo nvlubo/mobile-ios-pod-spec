@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
                 }
     s.author             = { "$(git config user.name)" => "$(git config user.email)" }
     s.source       = { :http => "https://github.com/nvlubo/NVFundation/releases/download/v0.1.0/GStreamer.framework.zip" }
-    s.public_header_files = "GStreamer.framework/Headers/*.h"
-    s.source_files = "GStreamer.framework/Headers/*.h"
+    s.public_header_files = "GStreamer.framework/Headers/**/*.h"
+    s.source_files = "GStreamer.framework/Headers/**/*.h"
     s.vendored_frameworks = "GStreamer.framework/GStreamer"
     s.platform = :ios
     s.swift_version = "4.2"
