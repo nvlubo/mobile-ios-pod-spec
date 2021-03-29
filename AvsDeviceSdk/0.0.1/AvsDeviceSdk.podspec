@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
     s.source       = { :http => "https://github.com/NativeVoice/mobile-ios-nv-sdk-pod/releases/download/0.0.1/AvsDeviceSdk.zip" }
     #s.public_header_files = "AvsDeviceSdk/Includes/**/*.h"
     #s.source_files = "AvsDeviceSdk/Includes/**/*.h"
-    s.vendored_libraries = "AvsDeviceSdk/Libs/*"
-    s.preserve_paths = "AvsDeviceSdk/Includes"
+    #s.vendored_libraries = "AvsDeviceSdk/Libs/*"
+    s.preserve_paths = "AvsDeviceSdk"
     s.platform = :ios
     s.swift_version = "4.2"
     s.ios.deployment_target  = '9.0'
