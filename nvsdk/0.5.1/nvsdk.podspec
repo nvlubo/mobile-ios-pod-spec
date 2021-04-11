@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "$(git config user.name)" => "$(git config user.email)" }
-    s.source       = { :http => "https://nativevoiceai.jfrog.io/artifactory/CocoaPods/nv-sdk/0.5.1/nvsdk.framework.zip" }
+    s.source       = { :http => "https://nativevoiceai.jfrog.io/artifactory/CocoaPods/ai/nativevoice/nvsdk/0.5.1/nvsdk.framework.zip" }
     s.public_header_files = "nvsdk.framework/Headers/*.h"
     s.source_files = "nvsdk.framework/Headers/*.h"
     s.vendored_frameworks = "nvsdk.framework"
